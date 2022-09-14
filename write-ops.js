@@ -1,8 +1,6 @@
 const AWS= require('aws-sdk');		/// initiatlly we create a databse table with name vasu_dynamo
 AWS.config.update({region: 'us-east-1'});
-
 const docclient = new AWS.DynamoDB.DocumentClient();
-
 
 docclient.put({
 						TableName:"vasu-sdk",
