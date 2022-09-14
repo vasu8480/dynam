@@ -50,3 +50,4 @@ dynamodb.deleteTable({TableName:"vasu_dynamo"},(err,data)=>{
 		else     console.log(data);           // successful response
 		}
 		);
+ 
